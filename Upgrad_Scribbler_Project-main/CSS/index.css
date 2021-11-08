@@ -1,0 +1,262 @@
+body {
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Button_Post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.inputTitle {
+  width: 70%;
+}
+
+.text-area {
+  height: 20em;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+  padding: 10px 0 0 10px;
+}
+
+.modal-contentPost {
+  width: 50%;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+}
+
+.modal-Create {
+  background-color: #68b313;
+  color: #fff;
+  padding: 15px 0 15px 0;
+  font-size: 1.2em;
+  margin-top: 30px;
+  border: 0;
+  cursor: pointer;
+  width: 15%;
+  align-self: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: #f0f9ff;
+}
+.menu {
+  width: 100%;
+  height: 3%;
+  background-color: rgb(54, 53, 53);
+}
+.menu a {
+  position: relative;
+  bottom: 14px;
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  margin-right: 5px;
+  padding: 2px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+a:hover {
+  border-bottom: 3px solid rgb(196, 57, 57);
+  transition: border 0.5s;
+}
+#logo {
+  width: auto;
+  height: 35px;
+  margin-right: 68px;
+  margin-top: 10px;
+}
+.dropmenu {
+  background-color: grey;
+  height: 25px;
+  width: 100%;
+}
+.dropmenu a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  margin-right: 3px;
+  padding: 2px;
+  margin-bottom: 5px;
+
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+#collage {
+  flex: 0.7;
+  width: 200%;
+  height: auto;
+}
+#collage img {
+  width: 100%;
+  height: 300px;
+}
+#collagelinks {
+  flex: 0.3;
+  width: 100%;
+  height: auto;
+  background-color: rgb(5, 5, 5);
+}
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#info li {
+  font-size: x-small;
+  list-style-type: none;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: white;
+}
+#info li a {
+  text-decoration: none;
+  color: rgb(231, 155, 14);
+  font-size: smallers;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+#news {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  scroll-behavior: auto;
+}
+
+.newsstyle {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 10px 10px 28px -13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 28px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px -13px rgba(0, 0, 0, 0.75);
+}
+.newsstyle p {
+  font-size: x-small;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsstyle img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.latest-new h3 {
+  font-size: smaller;
+  margin-left: 8px;
+}
+.Buttons {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+}
+.Signin_Buttons {
+  position: relative;
+  top: 60%;
+  bottom: 40%;
+  z-index: 1000;
+  left: 1280%;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Button_Post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.inputTitle {
+  width: 70%;
+}
+
+.text-area {
+  height: 20em;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+  padding: 10px 0 0 10px;
+}
+
+.modal-contentPost {
+  width: 50%;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+}
+
+.modal-Create {
+  background-color: #68b313;
+  color: #fff;
+  padding: 15px 0 15px 0;
+  font-size: 1.2em;
+  margin-top: 30px;
+  border: 0;
+  cursor: pointer;
+  width: 15%;
+  align-self: center;
+}
+
+@media screen and (min-width: 1500px) {
+  * {
+    margin: 10px;
+  }
+  .menu {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(41, 39, 39);
+    align-items: center;
+  }
+  .menu a {
+    position: relative;
+    bottom: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    margin-right: 5px;
+    padding: 2px;
+
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  #collage img {
+    width: 100%;
+    height: 400px;
+  }
+  #news {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    scroll-behavior: auto;
+  }
+}
